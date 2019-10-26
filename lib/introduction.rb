@@ -9,7 +9,7 @@ def introduction_with_language (name, language)
   print "Hi, my name is #{name} and I am learning to program in #{language}.\n"
 end
 def introduction_with_language (name, language)
-  language = language ? language : Ruby
+  language = language ? language : "Ruby"
   print "Hi, my name is #{name} and I am learning to program in #{language}.\n"
 end
 
